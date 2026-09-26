@@ -1,0 +1,77 @@
+/*---Inline code parts---*/
+code {
+  background-color: #f1fff0;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 0.95em;
+  color: #6b4e3d;
+}
+
+/*---Section boxes---*/
+section {
+  background-color: #f5fff4;
+  border: 1px dashed #d1f5cc;
+  border-radius:12px;
+  padding: 20px 24px;
+  margin-bottom: 30px;
+  opacity: 0;
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+/*---Footer---*/
+footer {
+  text-align: center;
+  font-size: 0.95em;
+  color: #4da64f;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 2px dashed #e8d6c3;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+footer strong {
+  color: #4da64f;
+}
+
+/*---Screen adjustments---*/
+@media (max-width: 600px) {
+  .container {
+    padding: 25px;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p, li {
+    font-size: 1em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
